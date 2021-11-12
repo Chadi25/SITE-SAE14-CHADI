@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055,#7597de);
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+
+}
+header
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration:none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+
+} 
+
+header ul li a 
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px; 
+    
+
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background: white;
+    color: #2b1055;
+
+}
+
+
+
+
+
+
+
+
+
+
+:root {
+    --shadow-color: #620d74;
+    --shadow-color-light: rgb(160, 74, 172);
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Archivo", sans-serif;
+    background-color: #192824;
+  }
+  
+  p {
+    margin: calc(50vh - 40px) auto 0 auto;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-family: "Archivo Black", "Archivo", sans-serif;
+    font-weight: normal;
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  
+  .logo-1 {
+    color: white;
+    animation: neon 3s infinite;
+  }
+  
+  @keyframes neon {
+    0% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+    50% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+    }
+    100% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+  }
+
+
+.titres
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration:none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto',sans-serif;
+    text-decoration: underline #756196;
+    
+    
+    
+
+}
+.texte
+{
+  color: #fff;
+    font-weight: 700;
+    text-decoration:none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto',sans-serif;
+    
+
+}
+
+
+.imageL
+{
+  text-align: center;
+  
+
+}
+
+div
+{
+text-align: center;
+}
+
+img
+{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+video
+{
+  width: 300px;
+  height: 300px;
+  float: left;
+
+}
+.imagescentrées
+{
+  left: 0%;
+  float: left;
+ 
+  height: 300px;
+  width: auto;
+  margin-right: 20px;
+        padding: 15px ;
+        border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+
+
+span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:120px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #cc6a0e,
+						20px 20px #000000;
+}
+
+table
+{
+    border-collapse: collapse;
+    color: #fff;
+    font-weight: 700;
+    text-decoration:none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+td, th 
+{
+    border: 1px solid black;
+    
+ 
+    
+}
