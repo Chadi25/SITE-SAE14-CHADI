@@ -1,0 +1,5 @@
+#Protect Directory
+AuthName 'mot de passe pour cabouhna'
+AuthType Basic
+AuthUserFile /home/rt/student/cabouhna/.sae14htpasswd
+Require valid-user
